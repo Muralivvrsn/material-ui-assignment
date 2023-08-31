@@ -1,6 +1,12 @@
+import Stargaze from '../assessts/Stargaze-logo.jpg';
+import osmosis from '../assessts/osmosis-logo.png';
+import cosmos from '../assessts/cosmos.png';
+import gravity from '../assessts/gravity_temp_logo.png';
+import lumCard from '../assessts/lum-card.png';
+import next from '../assessts/Untitled.png'
 export const data2 = [
   {
-    logoSrc: "alt",
+    logoSrc: Stargaze,
     title: "Stargaze",
     randomText: [
       {
@@ -16,7 +22,7 @@ export const data2 = [
     ],
   },
   {
-    logoSrc: "alt",
+    logoSrc: osmosis,
     title: "Osmosis",
     randomText: [
       {
@@ -52,7 +58,7 @@ export const data2 = [
     ],
   },
   {
-    logoSrc: "alt",
+    logoSrc: lumCard,
     title: "Lum",
     randomText: [
       {
@@ -68,7 +74,7 @@ export const data2 = [
     ],
   },
   {
-    logoSrc: "alt",
+    logoSrc: next,
     title: "Agoric",
     randomText: [
       {
@@ -79,7 +85,7 @@ export const data2 = [
     ],
   },
   {
-    logoSrc: "alt",
+    logoSrc: gravity,
     title: "Gravity",
     randomText: [
       {
@@ -95,7 +101,7 @@ export const data2 = [
     ],
   },
   {
-    logoSrc: "alt",
+    logoSrc: cosmos,
     title: "Cosmos",
     randomText: [
       {

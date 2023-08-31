@@ -6,7 +6,7 @@ function CustomCard({ data }) {
     <Card variant="outlined" style={{ width: "550px", margin: '10px', borderRadius:"20px" }}>
       <CardContent>
         <Grid container alignItems="center" spacing={2}>
-          <Grid item xs={3}>
+          <Grid item xs={2} >
             <Avatar alt={data.title} src={data.logoSrc} />
           </Grid>
           <Grid item xs={9}>

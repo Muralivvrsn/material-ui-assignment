@@ -1,5 +1,5 @@
 import { Box, Typography, Avatar, Grid } from '@mui/material';
-
+import logo from '../assessts/g3z57SXv_400x400.jpg'
 function TopSection() {
   return (
     <Box
@@ -12,7 +12,7 @@ function TopSection() {
     >
       <Grid container alignItems="center" spacing={2}>
         <Grid item xs={2}>
-          <Avatar alt="LOGO" src="/path/to/logo.png" />
+          <Avatar alt="LOGO" src={logo}  style={{width:"100px", height:"100px"}}/>
         </Grid>
         <Grid item>
           <Typography variant="h4">|</Typography>
