@@ -3,7 +3,7 @@ import CustomCard from "./CustomCard";
 import { Box } from '@mui/material';
 function CardList({ data }) {
   return (
-    <Box style={{ width: "80%", margin: "0 auto"}}>
+    <Box style={{ width: "73%", margin: "0 auto"}}>
       <Masonry columns={2} spacing={2}>
         {data.map((data, index) => (
             <CustomCard data={data} />

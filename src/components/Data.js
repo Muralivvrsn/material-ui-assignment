@@ -90,7 +90,7 @@ export const data2 = [
       {
         number: 181,
         text: "Compensation to cosmos holders",
-        yesNo: "NO/VETO",
+        yesNo: "NO",
       },
     ],
   },

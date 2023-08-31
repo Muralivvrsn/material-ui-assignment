@@ -7,8 +7,7 @@ function TopSection() {
         width: '70%',
         margin: '100px auto',
         padding: '20px',
-        border: '1px solid #ccc',
-        borderRadius: '5px'
+        background:"transparent"
       }}
     >
       <Grid container alignItems="center" spacing={2}>
